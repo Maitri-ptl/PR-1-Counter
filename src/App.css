@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    margin: 30px;
+    padding: 20px 10px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #85c8f2;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transform: translate(70%,90%);
+}
+
+.card .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .btn button{
+    width: 20px;
+    height: 20px;
+}
+
